@@ -2863,8 +2863,7 @@ video::-webkit-media-controls {
   margin: 0 auto 0 0;
 }
 #box-bottom #box-picto .pictoline.bot {
-  margin: 0 0 0 1%;
-  width: 55%;
+  margin: 0 0 0 auto;
 }
 #box-bottom #box-picto.fade {
   transition: opacity 0.3s ease-in-out;
