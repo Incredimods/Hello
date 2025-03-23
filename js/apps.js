@@ -2,138 +2,81 @@
 // To add more versions, copy the versions.v1 and replace with versions.v2, and the same with others (it support more than 9 versions)
 
 versions.v1 = {
-  name: "Template",
-  version: "temp01",
+  name: "Hello",
+  version: "OMFG-Hello",
   date: "2025",
-  folder: "asset-v1/", // ← If you are adding more versions, make sure follder is correct, for example "asset-v2/" for v2
-  looptime: 5333,
-  bpm: 90,
-  totalframe: 260,
+  folder: "asset-v1/",
+  looptime: 4561,
+  bpm: 105,
+  totalframe: 220,
   nbpolo: 7,
-  bonusloopA: false, // ← It makes bonus start on loop A, if its false, bonus will start after 1 loop
+  bonusloopA: true,
   bonusendloopA: true,
-  colBck: "#0F0F0F",
-  col0: "#919191",
-  col1: "#5f5f5f",
-  col2: "#4b4b4b",
-  col3: "#373737",
-  col4: "#232323",
+  colBck: "#250721",
+  col0: "#c44ab2",
+  col1: "#a0298f",
+  col2: "#842176",
+  col3: "#5d1954",
+  col4: "#250721",
   animearray: [
     {
-      name: "temp_polo",
-      color: "7D7D7D",
-      uniqsnd: !0, // ← !0 means that polo will use only _a audio, if its !1 - it will use _a and _b
-    },
-    {
-      name: "temp_polo",
-      color: "7D7D7D",
+      name: "1_kick",
+      color: "66CEF6",
       uniqsnd: !0,
     },
     {
-      name: "temp_polo",
-      color: "7D7D7D",
+      name: "2_snare",
+      color: "D0E077",
       uniqsnd: !0,
     },
     {
-      name: "temp_polo",
-      color: "7D7D7D",
+      name: "3_hatty",
+      color: "7360AA",
       uniqsnd: !0,
     },
     {
-      name: "temp_polo",
-      color: "7D7D7D",
+      name: "4_bassy",
+      color: "F3754D",
       uniqsnd: !0,
     },
     {
-      name: "temp_polo",
-      color: "7D7D7D",
+      name: "5_piano",
+      color: "5D3112",
       uniqsnd: !0,
     },
     {
-      name: "temp_polo",
-      color: "7D7D7D",
+      name: "6_bell",
+      color: "A9C5E7",
+      uniqsnd: !1,
+    },
+    {
+      name: "7_wewewo",
+      color: "E99DC5",
       uniqsnd: !0,
     },
     {
-      name: "temp_polo",
-      color: "7D7D7D",
-      uniqsnd: !0,
+      name: "8_owewewo",
+      color: "FDE8D5",
+      uniqsnd: !1,
     },
     {
-      name: "temp_polo",
-      color: "7D7D7D",
-      uniqsnd: !0,
+      name: "9_howareyou",
+      color: "F37778",
+      uniqsnd: !1,
     },
     {
-      name: "temp_polo",
-      color: "7D7D7D",
-      uniqsnd: !0,
-    },
-    {
-      name: "temp_polo",
-      color: "7D7D7D",
-      uniqsnd: !0,
-    },
-    {
-      name: "temp_polo",
-      color: "7D7D7D",
-      uniqsnd: !0,
-    },
-    {
-      name: "temp_polo",
-      color: "7D7D7D",
-      uniqsnd: !0,
-    },
-    {
-      name: "temp_polo",
-      color: "7D7D7D",
-      uniqsnd: !0,
-    },
-    {
-      name: "temp_polo",
-      color: "7D7D7D",
-      uniqsnd: !0,
-    },
-    {
-      name: "temp_polo",
-      color: "7D7D7D",
-      uniqsnd: !0,
-    },
-    {
-      name: "temp_polo",
-      color: "7D7D7D",
-      uniqsnd: !0,
-    },
-    {
-      name: "temp_polo",
-      color: "7D7D7D",
-      uniqsnd: !0,
-    },
-    {
-      name: "temp_polo",
-      color: "7D7D7D",
-      uniqsnd: !0,
-    },
-    {
-      name: "temp_polo",
-      color: "7D7D7D",
-      uniqsnd: !0,
+      name: "10_amazing",
+      color: "34C4EC",
+      uniqsnd: !1,
     },
   ],
   bonusarray: [
     {
-      name: "blank",
-      src: "b1-v1-blank-hb",
-      code: "1,2,3,4,5",
-      sound: "aspire-blank",
-      aspire: "aspire-blank",
-      loop: 1, // ← Every bonus have its own loops in this version
+      name: "Hello",
+      src: "b1-v1-hello-hb",
+      code: "1,2,3,4,9",
+      sound: "bonus-hello",
+      loop: 2,
     },
   ],
 };
-
-// versions.v2 = {
-//  name: "New Version",
-// version: "2",
-// date: "2025",
-// ...
