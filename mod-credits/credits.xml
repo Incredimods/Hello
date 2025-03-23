@@ -14,20 +14,26 @@ FORMATTING:
 
 <credits>
   <page 
+  noImage="false"
+  image="mod-credits/01c_credits-01.png"
+  title="Credits"
+  text='This mod was created with love by Rem and Charlles! 💙 (!line)(!line) 
+  • (!bold/(!color/#e783d8/L3PRD PR!NT)): Recrecreating the Talkbox vocals for "This is so Amazing!" 🎵 (!line)
+  • (!bold/(!color/#83bfe7/Rem)): Coding, Bonus Animation, General Animations, and Original Concept 🎵 (!line) 
+  • (!bold/(!color/#fbf7b4/Charlles)): Design, Sound Assistance, and Additional Ideas 🎵 (!line)(!line)
+    Huge thanks to everyone who enjoy our work!'
+  />
+  <page 
   noImage="true"
-  image=""
-  title="Credit Page"
-  text="You can edit this page inside (!italic/mod-credits/credits.xml file.)(!line) You can add more pages by copying the page tag and pasting it below the last page tag."
+  image="asset-v1/blueberries.jpg"
+  title="Special Thanks to OMFG 🍞"
+  text='This mod’s music is inspired by (!bold/"OMFG - Hello")! (!line)(!line) 
+  Check out the original track here: (!line)(!line) (!youtube/https://www.youtube.com/watch?v=aaIjs8K3oYo) (!line)(!line) 
+  Thank you, OMFG, for the amazing music!'
   />
   <page 
   noImage="false"
-  image="mod-credits/01c_remmie-hd.png"
-  title="Special Thanks!"
-  text="Incredibox Modding Build created with passion by (!color/#64b1e8/(!bold/Rem))! Love creative mods and unique sounds? Support her work and explore more on her channel! (!line)(!line)(!hr)(!line) (!button/#8f1e22/social_youtube.png/https://www.youtube.com/@rin.Incredibox//Rem's Channel)"
-  />
-  <page 
-  noImage="false"
-  image="mod-credits/03c_sofarsogood-hd.png"
+  image="mod-credits/02c_sofarsogood-hd.png"
   title="INCREDIBOX BY SO FAR SO GOOD!"
   text="And of corse the official developers of Incredibox, (!bold/Allan), (!bold/Romain) and Incredible (!bold/Polo)! Without them, this project wouldn't exist! (!line)(!line)(!hr)(!line)Buy Official Incredibox for more fun and to support the team!(!line)(!line)(!button/#4A4A4A/sfsg-credits-button.png/https://www.incredibox.com//Incredibox Website)(!button/#4A4A4A/sfsg-credits-button.png/https://www.incredibox.com/info/store/Buy Incredibox)"
   />
